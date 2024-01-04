@@ -1,0 +1,76 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   /* background-color: #2b2f54; */
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#header>h1{
+    margin-top: 2rem;
+    /* color: whitesmoke; */
+    font-size: 3rem;
+    font-weight: 900;
+}
+#input{
+    margin: 15px;
+}
+#input-data{
+width: 500px;
+height: 30px;
+padding: 5px;
+border-radius: 10px;
+background: linear-gradient(168deg, rgba(46, 51, 90, 0.26) 1.62%, rgba(28, 27, 51, 0.26) 95.72%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+color: whitesmoke;
+}
+#submitbutton{
+    width: 100px;
+height: 45px;
+/* padding: 9px; */
+color: #FFF;
+border-radius: 10px;
+border: none;
+background: rgba(74, 57, 127, 0.70);
+font-size: 1rem;
+font-weight: 900;
+margin-left: 2rem;
+}
+
+.cities {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 0;
+	margin: 0 0 4rem;
+	gap: 2rem;
+    
+}
+
+.cities li {
+	list-style: none;
+	display: flex;
+	gap: 1.5rem;
+	background-color: #fff;
+	align-items: center;
+	padding: 1.5rem;
+	color: var(--p-shade-80);
+	border-radius: var(--global-border-radius);
+	box-shadow: 8px 8px 0px rgba(255, 255, 255, 0.08);
+}
+
+.city__conditions {
+	color: var(--p-tint-40);
+	margin-bottom: 1rem;
+}
+
+.city__country {
+	color: #fff;
+	background-color: var(--tertiary);
+	border-radius: var(--global-border-radius);
+	padding: .125rem .25rem;
+	margin-left: .5rem;
+}
